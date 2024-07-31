@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>result</title>
+</head>
+<body>
+    <div id="result" method="post">
+        
+            {% if predicted_value %}
+            <h1 class="text-center text-bg-danger">
+               Predicted Yield Production:<br>
+               {{predicted_value}}
+            </h1>
+            {% endif %}
+        
+
+    </div>
+</body>
+</html>
